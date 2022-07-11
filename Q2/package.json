@@ -11,6 +11,6 @@
     "snarkjs": "^0.4.22"
   },
   "scripts": {
-    "test": "node scripts/bump-solidity.js && npx hardhat test"
+    "test": "node scripts/bump-solidity.js && export NODE_OPTIONS=--openssl-legacy-provider && npx hardhat test"
   }
 }
